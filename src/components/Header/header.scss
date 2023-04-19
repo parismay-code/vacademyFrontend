@@ -5,10 +5,14 @@
   position: sticky;
   top: 0;
 
+  margin-bottom: 5rem;
+
+  z-index: 1000;
+
   width: 100%;
   padding: 1rem 2rem;
 
-  background-color: #383333cf;
+  background-color: vars.$color-background-main;
 
   color: white;
 
@@ -26,9 +30,9 @@
     height: .5rem;
     border-radius: 1rem;
 
-    background-color: #ff0000;
+    background-color: red;
 
-    box-shadow: 0 5px 3rem .5rem #f62121;
+    box-shadow: 0 5px 3rem .5rem vars.$color-red-shadow;
 
     transition: left .3s ease-in-out, width .1s ease-in-out, box-shadow .2s ease-in-out;
   }

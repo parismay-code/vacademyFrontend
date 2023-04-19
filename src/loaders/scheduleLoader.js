@@ -11,7 +11,8 @@ export default async () => {
                 lectures: {
                     daytime: {
                         first: {
-                            lectureId: 1,
+                            id: 1,
+                            name: 'Наследие Первородных',
                             time: '14:00',
                             teacher: {
                                 id: 1,
@@ -20,7 +21,8 @@ export default async () => {
                             },
                         },
                         second: {
-                            lectureId: 2,
+                            id: 2,
+                            name: 'Иерархия вампирского сообщества',
                             time: '15:00',
                             teacher: {
                                 id: 1,
@@ -31,7 +33,8 @@ export default async () => {
                     },
                     evening: {
                         first: {
-                            lectureId: 1,
+                            id: 1,
+                            name: 'Наследие Первородных',
                             time: '20:00',
                             teacher: {
                                 id: 1,
@@ -40,7 +43,8 @@ export default async () => {
                             },
                         },
                         second: {
-                            lectureId: 2,
+                            id: 2,
+                            name: 'Иерархия вампирского сообщества',
                             time: '21:00',
                             teacher: {
                                 id: 1,
@@ -64,7 +68,8 @@ export default async () => {
                 lectures: {
                     daytime: {
                         first: {
-                            lectureId: 1,
+                            id: 3,
+                            name: 'Элизиум',
                             time: '14:00',
                             teacher: {
                                 id: 1,
@@ -73,7 +78,8 @@ export default async () => {
                             },
                         },
                         second: {
-                            lectureId: 2,
+                            id: 4,
+                            name: 'Титульная система',
                             time: '15:00',
                             teacher: {
                                 id: 1,
@@ -84,7 +90,8 @@ export default async () => {
                     },
                     evening: {
                         first: {
-                            lectureId: 1,
+                            id: 3,
+                            name: 'Элизиум',
                             time: '20:00',
                             teacher: {
                                 id: 1,
@@ -93,7 +100,8 @@ export default async () => {
                             },
                         },
                         second: {
-                            lectureId: 2,
+                            id: 4,
+                            name: 'Титульная система',
                             time: '21:00',
                             teacher: {
                                 id: 1,
@@ -117,7 +125,8 @@ export default async () => {
                 lectures: {
                     daytime: {
                         first: {
-                            lectureId: 1,
+                            id: 5,
+                            name: 'Кровавые договоры',
                             time: '14:00',
                             teacher: {
                                 id: 1,
@@ -126,7 +135,8 @@ export default async () => {
                             },
                         },
                         second: {
-                            lectureId: 2,
+                            id: 5,
+                            name: 'Кровавые договоры',
                             time: '15:00',
                             teacher: {
                                 id: 1,
@@ -137,7 +147,8 @@ export default async () => {
                     },
                     evening: {
                         first: {
-                            lectureId: 1,
+                            id: 5,
+                            name: 'Кровавые договоры',
                             time: '20:00',
                             teacher: {
                                 id: 1,
@@ -146,7 +157,8 @@ export default async () => {
                             },
                         },
                         second: {
-                            lectureId: 2,
+                            id: 5,
+                            name: 'Кровавые договоры',
                             time: '21:00',
                             teacher: {
                                 id: 1,
@@ -164,7 +176,8 @@ export default async () => {
                 lectures: {
                     daytime: {
                         first: {
-                            lectureId: 1,
+                            id: 6,
+                            name: 'Основы физиологии',
                             time: '14:00',
                             teacher: {
                                 id: 1,
@@ -173,7 +186,8 @@ export default async () => {
                             },
                         },
                         second: {
-                            lectureId: 2,
+                            id: 7,
+                            name: 'Истинная сущность',
                             time: '15:00',
                             teacher: {
                                 id: 1,
@@ -184,7 +198,8 @@ export default async () => {
                     },
                     evening: {
                         first: {
-                            lectureId: 1,
+                            id: 6,
+                            name: 'Основы физиологии',
                             time: '20:00',
                             teacher: {
                                 id: 1,
@@ -193,7 +208,8 @@ export default async () => {
                             },
                         },
                         second: {
-                            lectureId: 2,
+                            id: 7,
+                            name: 'Истинная сущность',
                             time: '21:00',
                             teacher: {
                                 id: 1,

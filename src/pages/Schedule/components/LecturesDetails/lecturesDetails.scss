@@ -6,17 +6,18 @@
   align-items: center;
   justify-content: space-between;
 
-  padding: .2rem .5rem;
+  padding: .5em 1em;
 
-  font-size: map.get(vars.$font-sizes, 6);
+  font-size: 1em;
 
   & h5 {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1em 0;
+    font-size: 1.5em;
   }
 }
 
 .lecture {
   &__teacher {
-    margin-bottom: .5rem;
+    margin-bottom: .5em;
   }
 }

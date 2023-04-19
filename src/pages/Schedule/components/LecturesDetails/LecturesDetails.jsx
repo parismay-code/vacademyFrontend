@@ -8,13 +8,13 @@ const LecturesDetails = ({data}) => {
             <ul className='lectures__list'>
                 <li className='lectures__element lecture'>
                     <div className='lecture__title'>
-                        {`${data.daytime.first.lectureId}. Название лекции - ${data.daytime.first.time}`}
+                        {`${data.daytime.first.id}. ${data.daytime.first.name} - ${data.daytime.first.time}`}
                     </div>
                     <div className='lecture__teacher'>{data.daytime.first.teacher.name}</div>
                 </li>
                 <li className='lectures__element lecture'>
                     <div className='lecture__title'>
-                        {`${data.daytime.second.lectureId}. Название лекции - ${data.daytime.second.time}`}
+                        {`${data.daytime.second.id}. ${data.daytime.second.name} - ${data.daytime.second.time}`}
                     </div>
                     <div className='lecture__teacher'>{data.daytime.second.teacher.name}</div>
                 </li>
@@ -25,13 +25,13 @@ const LecturesDetails = ({data}) => {
             <ul className='lectures__list'>
                 <li className='lectures__element lecture'>
                     <div className='lecture__title'>
-                        {`${data.evening.first.lectureId}. Название лекции - ${data.evening.first.time}`}
+                        {`${data.evening.first.id}. ${data.evening.first.name} - ${data.evening.first.time}`}
                     </div>
                     <div className='lecture__teacher'>{data.daytime.first.teacher.name}</div>
                 </li>
                 <li className='lectures__element lecture'>
                     <div className='lecture__title'>
-                        {`${data.evening.second.lectureId}. Название лекции - ${data.evening.second.time}`}
+                        {`${data.evening.second.id}. ${data.evening.second.name} - ${data.evening.second.time}`}
                     </div>
                     <div className='lecture__teacher'>{data.evening.second.teacher.name}</div>
                 </li>
