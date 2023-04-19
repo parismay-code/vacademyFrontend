@@ -1,0 +1,12 @@
+@use "sass:map";
+@use "../../../../styles/vars";
+
+.exams {
+  padding: .2rem .5rem;
+
+  font-size: map.get(vars.$font-sizes, 6);
+
+  & h5 {
+    margin: 0 0 1rem 0;
+  }
+}

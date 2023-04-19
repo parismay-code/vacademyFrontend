@@ -1,0 +1,22 @@
+@use "sass:map";
+@use "../../../../styles/vars";
+
+.lectures {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: .2rem .5rem;
+
+  font-size: map.get(vars.$font-sizes, 6);
+
+  & h5 {
+    margin: 0 0 1rem 0;
+  }
+}
+
+.lecture {
+  &__teacher {
+    margin-bottom: .5rem;
+  }
+}

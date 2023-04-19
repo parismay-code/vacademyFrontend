@@ -1,0 +1,39 @@
+@use "../../styles/vars";
+@use "sass:map";
+
+.header {
+  position: sticky;
+  top: 0;
+
+  width: 100%;
+  padding: 1rem 2rem;
+
+  background-color: #383333cf;
+
+  color: white;
+
+  font-size: map.get(vars.$font-sizes, 5);
+
+  overflow: hidden;
+
+  transition: transform .2s ease-in-out;
+
+  &-nav__mark {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+
+    height: .5rem;
+    border-radius: 1rem;
+
+    background-color: #ff0000;
+
+    box-shadow: 0 5px 3rem .5rem #f62121;
+
+    transition: left .3s ease-in-out, width .1s ease-in-out, box-shadow .2s ease-in-out;
+  }
+
+  &_hidden {
+    transform: translateY(-100%);
+  }
+}
